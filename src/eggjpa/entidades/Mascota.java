@@ -17,6 +17,8 @@ private String id;
 
 private String nombre;
 private String atributo1;
+private String atributo2;
+private int atributo3;
 
 @OneToMany
 private List<Pulga> pulgas;
